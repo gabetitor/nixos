@@ -6,8 +6,8 @@
 
 {
   imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
+    [ 
+      ./hardware-configuration.nix # Include the results of the hardware scan.
       ./modules/steam.nix
       ./modules/virt.nix
       ./modules/bluetooth.nix
@@ -113,7 +113,6 @@
     spotify
     discord
     easyeffects
-    supergfxctl
     whipper
     obsidian
     anki
@@ -122,6 +121,7 @@
     mpv
     plexamp
     signal-desktop
+    code
 
     vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     wget
