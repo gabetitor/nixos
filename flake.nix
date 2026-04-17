@@ -7,7 +7,7 @@
 
   outputs = { self, nixpkgs, ...}@inputs: {
     # Please replace my-nixos with your hostname
-    nixosConfigurations.proto-nixos = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.steiner = nixpkgs.lib.nixosSystem {
       specialArgs = {
         inherit inputs;
         username = "mutate";
