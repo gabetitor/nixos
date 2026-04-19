@@ -2,7 +2,6 @@
   config,
   lib,
   pkgs,
-  username,
   ...
 }:
 {
@@ -13,6 +12,6 @@
     spiceUSBRedirection.enable = true;
   };
 
-  users.users.${username}.extraGroups = ["libvirtd"];
+  users.users.mutate.extraGroups = ["libvirtd"];
   programs.virt-manager.enable = true;
 }
