@@ -2,7 +2,7 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, username, ... }:
+{ config, pkgs, ... }:
 
 {
   imports =
@@ -20,7 +20,7 @@
   # Use latest kernel.
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
-  networking.hostName = "proto-nixos"; # Define your hostname.
+  networking.hostName = "steiner"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary
@@ -94,14 +94,7 @@
     isNormalUser = true;
     description = "mutate";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-      kdePackages.kate
-    #  thunderbird
-    ];
   };
-
-  # Install firefox.
-  programs.firefox.enable = true;
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
@@ -109,25 +102,9 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    # User pkgs
-    spotify
-    discord
-    easyeffects
-    whipper
-    obsidian
-    anki
-    bitwarden-desktop
-    lact
-    mpv
-    plexamp
-    signal-desktop
-    vscode-fhs
-
-    vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+    vim 
     wget
-    fastfetch
     git
-    tailscale
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
