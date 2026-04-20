@@ -5,7 +5,7 @@
 }: {
 
   imports = [
-
+    ./programs/easyeffects.nix
   ];
 
   home.username = "mutate";
@@ -16,7 +16,6 @@
     firefox
     spotify
     discord
-    easyeffects
     whipper
     obsidian
     anki
