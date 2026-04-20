@@ -1,5 +1,5 @@
 { ...}: {
-  programs.easyeffects = {
+  services.easyeffects = {
     enable = true;
     preset = "HE6SEV2";
     extraPresets = {
