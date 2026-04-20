@@ -53,7 +53,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Bell";
-                    "width" = 4.0;;
+                    "width" = 4.0;
                 };
                 "band4" = {
                     "frequency" = 1478.9000244140625;
