@@ -120,7 +120,7 @@
                     "solo" = false;
                     "type" = "Hi-shelf";
                     "width" = 4.0;
-                }
+                };
             };
             "mode" = "FIR";
             "num-bands" = 10;
@@ -237,7 +237,7 @@
                     "solo" = false;
                     "type" = "Hi-shelf";
                     "width" = 4.0;
-                }
+                };
             };
             "split-channels" = false;
           };
