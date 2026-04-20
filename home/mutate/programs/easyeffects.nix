@@ -20,7 +20,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Lo-shelf";
-                    "width" = 4.0
+                    "width" = 4.0;
                 };
                 "band1" = {
                     "frequency" = 20.0;
@@ -31,7 +31,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Bell";
-                    "width" = 4.0
+                    "width" = 4.0;;
                 };
                 "band2" = {
                     "frequency" = 238.60000610351563;
@@ -42,7 +42,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Bell";
-                    "width" = 4.0
+                    "width" = 4.0;;
                 };
                 "band3" = {
                     "frequency" = 955.0999755859375;
@@ -53,7 +53,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Bell";
-                    "width" = 4.0
+                    "width" = 4.0;;
                 };
                 "band4" = {
                     "frequency" = 1478.9000244140625;
@@ -64,7 +64,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Bell";
-                    "width" = 4.0
+                    "width" = 4.0;;
                 };
                 "band5" = {
                     "frequency" = 1982.699951171875;
@@ -75,7 +75,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Bell";
-                    "width" = 4.0
+                    "width" = 4.0;;
                 };
                 "band6" = {
                     "frequency" = 3502.800048828125;
@@ -86,7 +86,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Bell";
-                    "width" = 4.0
+                    "width" = 4.0;;
                 };
                 "band7" = {
                     "frequency" = 9148.7998046875;
@@ -97,7 +97,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Bell";
-                    "width" = 4.0
+                    "width" = 4.0;;
                 };
                 "band8" = {
                     "frequency" = 10000.0;
@@ -108,7 +108,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Bell";
-                    "width" = 4.0
+                    "width" = 4.0;
                 };
                 "band9" = {
                     "frequency" = 10000.0;
@@ -119,7 +119,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Hi-shelf";
-                    "width" = 4.0
+                    "width" = 4.0;
                 }
             };
             "mode" = "FIR";
@@ -137,7 +137,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Lo-shelf";
-                    "width" = 4.0
+                    "width" = 4.0;
                 };
                 "band1" = {
                     "frequency" = 20.0;
@@ -148,7 +148,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Bell";
-                    "width" = 4.0
+                    "width" = 4.0;
                 };
                 "band2" = {
                     "frequency" = 238.60000610351563;
@@ -159,7 +159,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Bell";
-                    "width" = 4.0
+                    "width" = 4.0;
                 };
                 "band3" = {
                     "frequency" = 955.0999755859375;
@@ -170,7 +170,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Bell";
-                    "width" = 4.0
+                    "width" = 4.0;
                 };
                 "band4" = {
                     "frequency" = 1478.9000244140625;
@@ -181,7 +181,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Bell";
-                    "width" = 4.0
+                    "width" = 4.0;
                 };
                 "band5" = {
                     "frequency" = 1982.699951171875;
@@ -192,7 +192,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Bell";
-                    "width" = 4.0
+                    "width" = 4.0;
                 };
                 "band6" = {
                     "frequency" = 3502.800048828125;
@@ -203,7 +203,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Bell";
-                    "width" = 4.0
+                    "width" = 4.0;
                 };
                 "band7" = {
                     "frequency" = 9148.7998046875;
@@ -214,7 +214,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Bell";
-                    "width" = 4.0
+                    "width" = 4.0;
                 };
                 "band8" = {
                     "frequency" = 10000.0;
@@ -225,7 +225,7 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Bell";
-                    "width" = 4.0
+                    "width" = 4.0;
                 };
                 "band9" = {
                     "frequency" = 10000.0;
@@ -236,14 +236,14 @@
                     "slope" = "x1";
                     "solo" = false;
                     "type" = "Hi-shelf";
-                    "width" = 4.0
+                    "width" = 4.0;
                 }
             };
-            "split-channels" = false
+            "split-channels" = false;
           };
           "plugins_order" = [
              "equalizer#0"
-          ]
+          ];
         }
       }
     }
