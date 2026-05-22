@@ -2,10 +2,13 @@
   config,
   pkgs,
   ...
-}: {
+}:
+{
 
   imports = [
     ./programs/easyeffects.nix
+    ./programs/whipper.nix
+    ./programs/zed.nix
   ];
 
   home.username = "mutate";
@@ -20,11 +23,9 @@
     obsidian
     anki
     bitwarden-desktop
-    lact
     mpv
     plexamp
     signal-desktop
-    vscode-fhs
     fastfetch
     tailscale
   ];
