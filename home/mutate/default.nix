@@ -28,6 +28,7 @@
     signal-desktop
     fastfetch
     tailscale
+    nixd
   ];
 
   home.stateVersion = "25.11";
