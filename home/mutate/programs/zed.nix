@@ -24,6 +24,16 @@
       telemetry = {
         metrics = false;
       };
+
+      languages = {
+        Nix = {
+          language_servers = [
+            "nixd"
+            "!nil"
+          ];
+        };
+      };
+
     };
   };
 }
