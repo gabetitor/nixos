@@ -7,6 +7,7 @@
 
   imports = [
     ./programs/easyeffects.nix
+    ./programs/mpv.nix
     ./programs/whipper.nix
     ./programs/zed.nix
   ];
@@ -19,11 +20,9 @@
     firefox
     spotify
     discord
-    whipper
     obsidian
     anki
     bitwarden-desktop
-    mpv
     plexamp
     signal-desktop
     fastfetch
