@@ -8,6 +8,7 @@
   imports = [
     ./programs/easyeffects.nix
     ./programs/git.nix
+    ./programs/ghostty.nix
     ./programs/mpv.nix
     ./programs/whipper.nix
     ./programs/zed.nix
