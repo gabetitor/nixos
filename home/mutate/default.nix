@@ -10,6 +10,7 @@
     ./programs/git.nix
     ./programs/ghostty.nix
     ./programs/mpv.nix
+    ./programs/ssh.nix
     ./programs/whipper.nix
     ./programs/zed.nix
   ];
