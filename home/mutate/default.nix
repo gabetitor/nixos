@@ -23,7 +23,6 @@
     discord
     obsidian
     anki
-    bitwarden-desktop
     plexamp
     signal-desktop
     fastfetch
