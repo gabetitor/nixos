@@ -1,23 +1,32 @@
 {
-  description = "A flake for my NixOS config";
+  description = "NixOS flake for a mad scientist";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
 
-    home-manager = {
+   home-manager = {
       url = "github:nix-community/home-manager/release-26.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
 
-  outputs = { self, nixpkgs, home-manager, ...}@inputs: {
-    # Please replace my-nixos with your hostname
+  outputs = { self, nixpkgs, home-manager, ...}@inputs:
+    let
+      systems = [
+        "x86_64-linux"
+        "x86_64-darwin"
+        "aarch64-linux"
+        "aarch64-darwin"
+      ];
+
+      # Anonymous function, has inputs, waiting to be fed a function
+      forAllSystems = nixpkgs.lib.genAttrs systems;
+    in {
     nixosConfigurations.steiner = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
+      # may not need vvvv
       specialArgs = { inherit inputs;};
       modules = [
-        # Import the previous configuration.nix we used,
-        # so the old configuration file still takes effect
         ./hosts/steiner/configuration.nix
         home-manager.nixosModules.home-manager
         {
@@ -30,5 +39,18 @@
         }
       ];
     };
+
+    devShells = forAllSystems (
+      system:
+        let
+          pkgs = nixpkgs.legacyPackages.${system};
+        in {
+          default = pkgs.mkShell {
+           packages = with pkgs; [
+            nixd
+           ];
+          };
+        }
+    );
   };
 }
