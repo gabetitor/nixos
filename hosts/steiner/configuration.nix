@@ -73,6 +73,8 @@
     vim
     wget
     lact
+    cryptsetup
+    pciutils
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

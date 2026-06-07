@@ -25,10 +25,13 @@
     obsidian
     anki
     plexamp
+    protontricks
     signal-desktop
     fastfetch
     tailscale
     nixd
+    zenity # for CLIs
+    wine
   ];
 
   home.stateVersion = "25.11";
