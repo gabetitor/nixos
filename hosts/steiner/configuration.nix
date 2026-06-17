@@ -12,6 +12,7 @@
     ../../modules/bluetooth.nix
     ../../modules/i18n.nix
     ../../modules/pipewire.nix
+    ../../modules/hyprland.nix
   ];
 
   nix.gc = {

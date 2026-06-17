@@ -6,6 +6,8 @@
 {
 
   imports = [
+    ./hypr/default.nix
+
     ./programs/easyeffects.nix
     ./programs/git.nix
     ./programs/ghostty.nix
