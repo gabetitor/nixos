@@ -6,7 +6,7 @@
 {
 
   imports = [
-    ./hypr/default.nix
+    ./programs/hypr/default.nix
 
     ./programs/easyeffects.nix
     ./programs/git.nix
