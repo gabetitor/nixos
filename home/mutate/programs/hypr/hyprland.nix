@@ -10,6 +10,7 @@
    # for UWSM
    systemd.enable = false;
 
+   configType = "lua";
    settings = {
 
    };
