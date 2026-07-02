@@ -25,6 +25,7 @@
     firefox
     spotify
     discord
+    devenv
     obsidian
     anki
     plexamp
@@ -34,6 +35,7 @@
     tailscale
     nixd
     zenity # for CLIs
+    vscode-fhs
     wine
   ];
 
