@@ -13,7 +13,6 @@
     ./programs/git.nix
     ./programs/ghostty.nix
     ./programs/mpv.nix
-    ./programs/nix-ld.nix
     ./programs/ssh.nix
     ./programs/whipper.nix
     ./programs/zed.nix
