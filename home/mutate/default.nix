@@ -8,10 +8,12 @@
   imports = [
     ./programs/hypr/default.nix
 
+    ./programs/direnv.nix
     ./programs/easyeffects.nix
     ./programs/git.nix
     ./programs/ghostty.nix
     ./programs/mpv.nix
+    ./programs/nix-ld.nix
     ./programs/ssh.nix
     ./programs/whipper.nix
     ./programs/zed.nix
