@@ -13,6 +13,7 @@
     ./programs/git.nix
     ./programs/ghostty.nix
     ./programs/mpv.nix
+    ./programs/obsidian.nix
     ./programs/ssh.nix
     ./programs/whipper.nix
     ./programs/zed.nix
@@ -27,7 +28,6 @@
     spotify
     discord
     devenv
-    obsidian
     anki
     plexamp
     protontricks
