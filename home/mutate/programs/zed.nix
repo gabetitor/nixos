@@ -8,6 +8,7 @@
       "java"
       "nix"
       "golangci-lint"
+      "lua"
     ];
     userSettings = {
       vim_mode = true;
@@ -31,6 +32,12 @@
             "nixd"
             "!nil"
           ];
+        };
+        Python = {
+         language_servers = [
+          "ty"
+          "!basedpyright"
+         ];
         };
       };
 

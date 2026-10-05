@@ -1,4 +1,4 @@
-{ ... }:
+{ config, ... }:
 {
   wayland.windowManager.hyprland = {
    enable = true;
@@ -10,9 +10,11 @@
    # for UWSM
    systemd.enable = false;
 
-   configType = "lua";
-   settings = {
+   # configType = "lua";
+   # settings = {
+   # };
 
-   };
   };
+
+  xdg.configFile."hypr".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/projects/dotfiles/hypr";
 }

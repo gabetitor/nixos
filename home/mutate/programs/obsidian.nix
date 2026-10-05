@@ -2,7 +2,7 @@
 {
   programs.obsidian = {
    enable = true;
-   defaultSetings = {
+   defaultSettings = {
     communityPlugins = {
       excalidraw.enable = true;
       git.enable = true;
