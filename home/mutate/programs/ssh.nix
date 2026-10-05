@@ -8,6 +8,11 @@
         user = "git";
         identityFile = "~/.ssh/codeberg";
       };
+      "github.com" = {
+        hostname = "github.com";
+        user = "git";
+        identityFile = "~/.ssh/github";
+      };
     };
   };
 }
