@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
   home.packages = [ pkgs.whipper ];
-  xdg.configFile."whipper/whipper.config" = {
+  xdg.configFile."whipper/whipper.conf" = {
     text = ''
     [drive:HL-DT-ST%3ABD-RE%20BP60NB10%20%20%3A1.02]
     vendor = HL-DT-ST
