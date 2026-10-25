@@ -1,6 +1,7 @@
 {
   config,
   pkgs,
+  pkgs-unstable,
   ...
 }:
 {
@@ -9,7 +10,7 @@
     ./programs/hypr/default.nix
 
     ./programs/direnv.nix
-    ./programs/easyeffects.nix
+    ./programs/easyeffects/default.nix
     ./programs/git.nix
     ./programs/ghostty.nix
     ./programs/mpv.nix
