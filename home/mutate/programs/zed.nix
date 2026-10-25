@@ -9,9 +9,11 @@
       "nix"
       "golangci-lint"
       "lua"
+      "terraform"
     ];
     userSettings = {
       vim_mode = true;
+      show_completions_on_input = true;
 
       theme = {
         mode = "dark";
