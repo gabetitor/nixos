@@ -11,6 +11,7 @@
     ../../modules/virt.nix
     ../../modules/bluetooth.nix
     ../../modules/i18n.nix
+    ../../modules/netbird.nix
     ../../modules/pipewire.nix
     ../../modules/hyprland.nix
   ];
