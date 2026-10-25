@@ -13,12 +13,16 @@
     jack.enable = true;
     extraConfig.pipewire = {
       "10-sample-rates" = {
+       "context.properties" = {
         "default.clock.allowed-rates" = [
           44100
           48000
           96000
           192000
+          384000
+          768000
         ];
+       };
       };
     };
   };
