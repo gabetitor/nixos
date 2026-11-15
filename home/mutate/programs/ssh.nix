@@ -13,6 +13,12 @@
         user = "git";
         identityFile = "~/.ssh/github";
       };
+      "git.imprl.xyz" = {
+        hostname = "git.imprl.xyz";
+        user = "mutate";
+        port = 222;
+        identityFile = "~/.ssh/git_imprl";
+      };
     };
   };
 }
