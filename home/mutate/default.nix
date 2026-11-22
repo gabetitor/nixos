@@ -35,6 +35,7 @@
     signal-desktop
     fastfetch
     tailscale
+    mangohud
     nixd
     zenity # for CLIs
     vscode-fhs
